@@ -16,3 +16,5 @@ jobs:
         working-directory: ./task-manager-api
       - run: npm test
         working-directory: ./task-manager-api
+        env:
+          NODE_ENV: test
